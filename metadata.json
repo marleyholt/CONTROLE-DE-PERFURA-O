@@ -1,0 +1,6 @@
+{
+  "name": "Controle de Perfuração de Barragem",
+  "description": "Sistema de controle e sequenciamento executivo de perfuração e injeção em barragens, com dashboard e alerta de cura (12h).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
