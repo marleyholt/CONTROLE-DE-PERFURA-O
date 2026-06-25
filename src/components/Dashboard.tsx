@@ -249,6 +249,7 @@ export function Dashboard({ holes }: Props) {
               <Tooltip 
                 cursor={{ fill: '#1A1D24' }}
                 contentStyle={{ backgroundColor: '#0F1116', border: '1px solid #262A33', borderRadius: '4px', color: '#E0E2E5', fontSize: '12px' }}
+                formatter={(value: number) => [`${value.toFixed(2)}m`, undefined]}
               />
               <Legend iconType="circle" wrapperStyle={{ fontSize: '10px', color: '#9CA3AF' }} />
               <Bar dataKey="Concluídos" stackId="a" fill="#4CAF50" radius={[0, 0, 2, 2]} maxBarSize={32} />
